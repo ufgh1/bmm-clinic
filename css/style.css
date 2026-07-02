@@ -249,10 +249,9 @@ p {
 }
 
 .logo-icon img {
-  width: 65%;
-  height: 65%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
-}
 }
 
 .logo span {
@@ -1630,8 +1629,8 @@ p {
 }
 
 .footer-logo .logo-icon img {
-  width: 65%;
-  height: 65%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
 }
 
