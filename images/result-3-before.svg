@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400" viewBox="0 0 700 400">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#FEF2F2"/><stop offset="100%" style="stop-color:#FECACA"/></linearGradient></defs>
+  <rect width="700" height="400" fill="url(#bg)"/>
+  <text x="350" y="200" text-anchor="middle" font-family="Arial" font-size="20" fill="#B91C1C" font-weight="600">До лечения</text>
+</svg>

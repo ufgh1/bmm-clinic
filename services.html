@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Услуги стоматологии БМ Клиник в Краснодаре. Цены на лечение зубов, протезирование, имплантацию, профгигиену. Калькулятор стоимости.">
+  <title>Услуги и цены — БМ Клиник</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C8 2 5 5 5 8c0 2 1 4 2 5.5V17a2 2 0 002 2h6a2 2 0 002-2v-3.5C18 12 19 10 19 8c0-3-3-6-7-6z"/>
+          </svg>
+        </div>
+        БМ <span>Клиник</span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="index.html">Главная</a>
+        <a href="services.html" class="active">Услуги</a>
+        <a href="about.html">О клинике</a>
+        <a href="results.html">Результаты</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:+79384002728" class="header-phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+          </svg>
+          +7 (938) 400-27-28
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+      </div>
+      <button class="menu-toggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="index.html">Главная</a>
+    <a href="services.html">Услуги</a>
+    <a href="about.html">О клинике</a>
+    <a href="results.html">Результаты</a>
+    <a href="contact.html">Контакты</a>
+    <a href="tel:+79384002728" style="color: var(--accent);">+7 (938) 400-27-28</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Услуги и цены</span>
+        <h1>Полный спектр <span class="text-gold">стоматологических услуг</span></h1>
+        <p>Прозрачные цены без скрытых платежей. Качественные материалы и современное оборудование.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="services-categories reveal">
+        <button class="category-btn active" data-category="all">Все</button>
+        <button class="category-btn" data-category="therapy">Терапия</button>
+        <button class="category-btn" data-category="ortho">Ортопедия</button>
+        <button class="category-btn" data-category="surgery">Хирургия</button>
+        <button class="category-btn" data-category="hygiene">Гигиена</button>
+        <button class="category-btn" data-category="kids">Детская</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <div class="service-full-card reveal" data-category="hygiene">
+          <h4>Профессиональная гигиена полости рта</h4>
+          <p>Удаление зубного камня и налёта, полировка, фторирование. Современные методики, без боли.</p>
+          <div class="price-row">
+            <span class="price">6 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-1" data-category="therapy">
+          <h4>Лечение кариеса на жевательной группе зубов</h4>
+          <p>Эффективное лечение кариеса без боли. Современные методы гарантируют быстрое восстановление.</p>
+          <div class="price-row">
+            <span class="price">4 500 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-2" data-category="therapy">
+          <h4>Реставрация фронтального зуба</h4>
+          <p>Восстановим эмаль и форму без боли, быстро и надёжно. Современные композитные материалы.</p>
+          <div class="price-row">
+            <span class="price">9 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal" data-category="ortho">
+          <h4>Металлокерамическая коронка (классика)</h4>
+          <p>Надёжное и эстетичное решение. Качественные материалы, точная подгонка, долгий срок службы.</p>
+          <div class="price-row">
+            <span class="price">12 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-1" data-category="ortho">
+          <h4>Бюгельный протез</h4>
+          <p>Комфортное и функциональное решение для съёмного протезирования. Биосовместимые материалы.</p>
+          <div class="price-row">
+            <span class="price">48 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-2" data-category="therapy">
+          <h4>Лечение каналов (эндодонтия)</h4>
+          <p>Эндодонтическое лечение с использованием микроскопа. Точность и сохранение зуба.</p>
+          <div class="price-row">
+            <span class="price">от 3 500 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal" data-category="surgery">
+          <h4>Удаление зуба</h4>
+          <p>Аtraumaticное удаление с минимальной травматичностью. Быстрое заживление.</p>
+          <div class="price-row">
+            <span class="price">от 3 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-1" data-category="surgery">
+          <h4>Имплантация зуба</h4>
+          <p>Полная замена корня зуба. Современные импланты, долговечный результат.</p>
+          <div class="price-row">
+            <span class="price">от 35 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-2" data-category="therapy">
+          <h4>Отбеливание зубов</h4>
+          <p>Профессиональное отбеливание на 8-12 тонов. Безопасно для эмали.</p>
+          <div class="price-row">
+            <span class="price">15 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal" data-category="kids">
+          <h4>Детская стоматология</h4>
+          <p>Детский кабинет, игровая форма лечения. Без стресса для малышей и родителей.</p>
+          <div class="price-row">
+            <span class="price">от 3 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-1" data-category="therapy">
+          <h4>Лечение дёсен (пародонтология)</h4>
+          <p>Лечение гингивита, пародонтита. Профессиональная чистка корней.</p>
+          <div class="price-row">
+            <span class="price">от 5 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+        <div class="service-full-card reveal reveal-delay-2" data-category="ortho">
+          <h4>Брекеты и ортодонтия</h4>
+          <p>Исправление прикуса для детей и взрослых. Металлические и керамические брекеты.</p>
+          <div class="price-row">
+            <span class="price">от 80 000 ₽</span>
+            <a href="contact.html" class="btn btn-primary btn-sm">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calculator Section -->
+  <section class="section calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Калькулятор улыбки</span>
+        <h2>Рассчитайте стоимость лечения</h2>
+        <p>Выберите нужные услуги и узнайте итоговую стоимость с рекомендуемым графиком</p>
+      </div>
+      <div class="calculator-layout">
+        <div class="calc-services reveal">
+          <!-- Services rendered by calculator.js -->
+        </div>
+        <div class="calc-result reveal reveal-delay-2">
+          <div class="calc-total-label">Итого</div>
+          <div class="calc-total-price">0 <span class="currency">₽</span></div>
+          <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;">Записаться с этим планом</a>
+          <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4); text-align: center;">Точная стоимость определяется на консультации</p>
+          <div class="calc-timeline">
+            <h4>Рекомендуемый график</h4>
+            <div class="timeline">
+              <div style="color: rgba(255,255,255,0.3); font-size: 0.85rem; padding: 1rem 0;">Выберите услуги для просмотра графика</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="section-subtitle" style="color: var(--accent-light);">Бесплатная консультация</span>
+        <h2>Не уверены, что нужно?</h2>
+        <p>Запишитесь на бесплатный осмотр. Доктор осмотрит, сделает снимок и составит план лечения.</p>
+        <div class="cta-actions">
+          <a href="tel:+79384002728" class="btn btn-primary">Позвонить</a>
+          <a href="contact.html" class="btn btn-outline" style="border-color: var(--accent-light); color: var(--accent-light);">Онлайн-запись</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C8 2 5 5 5 8c0 2 1 4 2 5.5V17a2 2 0 002 2h6a2 2 0 002-2v-3.5C18 12 19 10 19 8c0-3-3-6-7-6z"/>
+              </svg>
+            </div>
+            БМ <span>Клиник</span>
+          </div>
+          <p>Современная стоматология в Краснодаре. Качественное лечение без боли для всей семьи.</p>
+        </div>
+        <div>
+          <h4>Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="about.html">О клинике</a></li>
+            <li><a href="results.html">Результаты</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Услуги</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Лечение кариеса</a></li>
+            <li><a href="services.html">Профгигиена</a></li>
+            <li><a href="services.html">Протезирование</a></li>
+            <li><a href="services.html">Имплантация</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+79384002728">+7 (938) 400-27-28</a></li>
+            <li><a href="https://yandex.ru/maps/org/bm_klinik/211016535542" target="_blank" rel="noopener">Ростовское ш., 30/7к2</a></li>
+            <li><a href="https://vk.com/bm_clinic" target="_blank" rel="noopener">ВКонтакте</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 БМ Клиник. Все права защищены.</p>
+        <div class="footer-social">
+          <a href="https://vk.com/bm_clinic" target="_blank" rel="noopener" aria-label="ВКонтакте">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4.03 8.57 4.03 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.678.847 2.49 2.27 4.675 2.863 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.253-1.406 2.15-3.574 2.15-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="contact.html" class="floating-cta" aria-label="Записаться">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+      <line x1="16" y1="2" x2="16" y2="6"></line>
+      <line x1="8" y1="2" x2="8" y2="6"></line>
+      <line x1="3" y1="10" x2="21" y2="10"></line>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/calculator.js"></script>
+  <script>
+    // Category filter
+    document.querySelectorAll('.category-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.category-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        var cat = btn.getAttribute('data-category');
+        document.querySelectorAll('.service-full-card').forEach(function(card) {
+          if (cat === 'all' || card.getAttribute('data-category') === cat) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
